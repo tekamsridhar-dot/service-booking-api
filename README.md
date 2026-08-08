@@ -208,7 +208,7 @@ http://127.0.0.1:8000/redoc
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-github-username>/service-booking-api.git
+git clone https://github.com/tekamsridhar-dot/service-booking-api.git
 cd service-booking-api
 ```
 
@@ -244,16 +244,6 @@ pip install -r requirements.txt
 
 Create a `.env` file and configure your application settings.
 
-Example:
-
-```env
-DATABASE_URL=postgresql://postgres:Rockstar1@localhost:5432/service_booking_db
-SECRET_KEY=your_secret_key
-ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=30
-```
-
----
 
 ## 5. Run Database Migrations
 
@@ -272,7 +262,7 @@ uvicorn app.main:app --reload
 The API will be available at:
 
 ```text
-http://127.0.0.1:8000
+http://127.0.0.1:8001
 ```
 
 ---
@@ -349,8 +339,3 @@ The `screenshots/` directory contains sample API responses and Swagger UI screen
 
 Backend Developer | Python | FastAPI | PostgreSQL | SQLAlchemy
 
----
-
-# License
-
-This project is intended for educational and learning purposes.
